@@ -1,0 +1,1 @@
+honestly, this doesnt really have any point to existing yet, except for the math module, the string module kinda just complicates things, might not even keep it if i dont find a use for it
