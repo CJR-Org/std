@@ -1,0 +1,21 @@
+namespace math {
+    namespace random {
+        func init(): void {
+            srand((unsigned)time(NULL));
+        }
+
+        func uniform(): f32 {
+            return ((float)(rand() % 100000) / 100000.0f);
+        }
+
+        func range(min: i32, max: i32): i32 {
+            return rand() % ((max + 1) - min) + min;
+        }
+    }
+
+    var PI: f32 = 3.14159265359f
+
+    func init(): void {
+        math::random::init();
+    }
+}

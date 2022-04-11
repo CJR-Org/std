@@ -1,0 +1,3 @@
+require("./math/index.cjr")
+require("./string/index.cjr")
+require("./io/index.cjr")

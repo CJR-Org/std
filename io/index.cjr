@@ -1,0 +1,9 @@
+namespace io {
+    func print(str: string): void {
+        printf("%s", str.c_str);
+    }
+
+    func println(str: string): void {
+        printf("%s\n", str.c_str);
+    }
+}
